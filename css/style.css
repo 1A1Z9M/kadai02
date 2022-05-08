@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body{
+  background-color: #FFCC33;
+  font-family: 'Train One', cursive;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+header{
+  font-family: 'Train One', cursive;
+}
+
+#rule{
+  text-align: center;
+}
+
+.pattern{
+  text-decoration: underline;
+}
+
+.roll{
+  /* display: flex; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.dice{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+#dice1{
+  /* transform: rotate(360deg);
+  animation: rotate-anime 3s linear infinite; */
+}
+
+#dice2{
+  /* transform: rotate(360deg);
+  animation: rotate-anime 3s linear infinite; */
+}
+
+/* @keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
+} */
+
+.btn{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#diceBtn{
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 2px solid gray;
+  -webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 2px rgba(0, 0, 0, .3);
+  border-radius: 100vh;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+
+#diceBtn:hover{
+  margin-top: 3px;
+  border-bottom: 2px solid gray;
+}
+
+#result{
+  text-align: center;
+  font-size: 24px;
+}
+
+#order{
+  font-weight: bold;
+  color: black;
+}
+
+footer{
+  text-align: center;
+  color: gray;
+}
